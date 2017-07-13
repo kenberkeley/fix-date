@@ -1,4 +1,4 @@
-if (isNaN(Date.parse('2000-01-01 00:00:00'))) {
+if (isNaN(Date.parse('2000-1-1'))) {
   const _Date = Date
 
   const standardizeArgs = args => {
@@ -12,7 +12,7 @@ if (isNaN(Date.parse('2000-01-01 00:00:00'))) {
     if (this instanceof $Date) {
       return new _Date(...standardizeArgs(arguments))
     }
-    return _Date(...arguments)
+    return _Date()
   }
   $Date.prototype = _Date.prototype
   
