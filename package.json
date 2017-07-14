@@ -1,6 +1,6 @@
 {
   "name": "fix-date",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Solution for `yyyy-MM-dd HH:mm:ss` is `Invalid Date` in Safari, IE, etc",
   "author": "Ken Berkeley <kenberkeley@foxmail.com>",
   "main": "dist/index.js",

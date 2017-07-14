@@ -4,7 +4,7 @@
 [![npm download][npm-dl-img]][npm-url]
 
 > Solution for `yyyy-MM-dd HH:mm:ss` is `Invalid Date` in Safari, IE, etc  
-> No dependencies, min + gzip = 281 B
+> No dependencies, min + gzip = 280 B
 
 1. `npm i -S fix-date`
 2. `import 'fix-date'  // or require('fix-date') at the beginning` 
