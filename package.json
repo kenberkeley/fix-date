@@ -1,0 +1,25 @@
+{
+  "name": "fix-date",
+  "version": "1.0.0",
+  "description": "Solution for `yyyy-MM-dd` is `Invalid Date` in Safari, IE, etc",
+  "author": "Ken Berkeley <kenberkeley@foxmail.com>",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "uglifyjs lib/index.js -c -m -o dist/fix-date.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kenberkeley/fix-date.git"
+  },
+  "keywords": [
+    "date",
+    "parse",
+    "invalid",
+    "safari",
+    "ie"
+  ],
+  "devDependencies": {
+    "uglify-js": "^3.0.24"
+  },
+  "license": "MIT"
+}
