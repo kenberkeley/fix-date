@@ -3,7 +3,7 @@
 [![npm version][npm-v-img]][npm-url]
 [![npm download][npm-dl-img]][npm-url]
 
-> Solution for `yyyy-MM-dd` is `Invalid Date` in Safari, IE, etc  
+> Solution for `yyyy-MM-dd HH:mm:ss` is `Invalid Date` in Safari, IE, etc  
 > No dependencies, min + gzip = 281 B
 
 1. `npm i -S fix-date`
