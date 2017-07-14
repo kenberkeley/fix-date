@@ -1,9 +1,9 @@
 {
   "name": "fix-date",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Solution for `yyyy-MM-dd HH:mm:ss` is `Invalid Date` in Safari, IE, etc",
   "author": "Ken Berkeley <kenberkeley@foxmail.com>",
-  "main": "dist/index.js",
+  "main": "dist/fix-date.min.js",
   "scripts": {
     "build": "uglifyjs lib/index.js -c -m -o dist/fix-date.min.js"
   },
