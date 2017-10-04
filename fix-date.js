@@ -1,7 +1,7 @@
 !function (_Date) {
   if (isNaN(_Date.parse('2000-01-01 00:00:00'))) {
     function standardizeArgs(args) {
-      if (args.length === 1 && typeof args[0] === 'string') {
+      if (args.length === 1 && typeof args[0] === 'string' && isNaN(_Date.parse(args[0]))) {
         // '2000-01-01 00:00:00' => '2000/01/01 00:00:00'
         args[0] = args[0].replace(/-/g, '/')
       }
